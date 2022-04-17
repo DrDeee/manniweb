@@ -1,0 +1,23 @@
+#bg1 {
+  background-color: #fafafa;
+  background-image: url("/assets/images/1.jpg");
+  background-size: cover;
+}
+
+#bg2 {
+  background-color: #fafafa;
+  background-image: url("/assets/images/2.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 1024px) {
+  #bg1-alt {
+    background-image: url("/assets/images/1.jpg");
+    background-size: cover;
+  }
+
+  #bg2-alt {
+    background-image: url("/assets/images/2.jpg");
+    background-size: cover;
+  }
+}
